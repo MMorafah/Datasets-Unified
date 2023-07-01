@@ -9,15 +9,15 @@ After runnig the script, the directory should be like this:
 
 ```bash
 imagenet/train/
-#  ├── n01440764
-#  │   ├── n01440764_10026.JPEG
-#  │   ├── n01440764_10027.JPEG
-#  │   ├── ......
-#  ├── ......
-#  imagenet/val/
-#  ├── n01440764
-#  │   ├── ILSVRC2012_val_00000293.JPEG
-#  │   ├── ILSVRC2012_val_00002138.JPEG
-#  │   ├── ......
-#  ├── ......
+  ├── n01440764
+  │   ├── n01440764_10026.JPEG
+  │   ├── n01440764_10027.JPEG
+  │   ├── ......
+  ├── ......
+  imagenet/val/
+  ├── n01440764
+  │   ├── ILSVRC2012_val_00000293.JPEG
+  │   ├── ILSVRC2012_val_00002138.JPEG
+  │   ├── ......
+  ├── ......
 ```
