@@ -21,3 +21,16 @@ imagenet/train/
   │   ├── ......
   ├── ......
 ```
+## [ImageNet-A](https://github.com/hendrycks/natural-adv-examples)
+
+We followed this [repo](https://github.com/mlfoundations/model-soups/blob/main/datasets.md).
+
+```bash
+wget https://people.eecs.berkeley.edu/~hendrycks/imagenet-a.tar
+tar xvf imagenet-a.tar
+rm imagenet-a.tar
+```
+## [ImageNet-R](https://github.com/hendrycks/natural-adv-examples)
+
+We followed this [repo](https://github.com/mlfoundations/model-soups/blob/main/datasets.md).
+
