@@ -40,14 +40,14 @@ tar xvf imagenet-r.tar
 rm imagenet-r.tar
 ```
 
-#### [ImageNet Sketch](https://github.com/HaohanWang/ImageNet-Sketch)
+### [ImageNet Sketch](https://github.com/HaohanWang/ImageNet-Sketch)
 We followed this [repo](https://github.com/mlfoundations/model-soups/blob/main/datasets.md).
 
 Download links:
 - from [Google Drive](https://drive.google.com/open?id=1Mj0i5HBthqH1p_yeXzsg22gZduvgoNeA)
 - from [Kaggle](https://www.kaggle.com/wanghaohan/imagenetsketch)
 
-#### [ImageNet V2](https://github.com/modestyachts/ImageNetV2)
+### [ImageNet V2](https://github.com/modestyachts/ImageNetV2)
 We followed this [repo](https://github.com/mlfoundations/model-soups/blob/main/datasets.md).
 
 ```bash
@@ -56,7 +56,7 @@ tar -xvf imagenetv2-matched-frequency.tar.gz
 rm imagenetv2-matched-frequency.tar.gz
 ```
 
-#### [ObjectNet](https://objectnet.dev/)
+### [ObjectNet](https://objectnet.dev/)
 We followed this [repo](https://github.com/mlfoundations/model-soups/blob/main/datasets.md).
 
 ```bash
