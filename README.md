@@ -30,7 +30,36 @@ wget https://people.eecs.berkeley.edu/~hendrycks/imagenet-a.tar
 tar xvf imagenet-a.tar
 rm imagenet-a.tar
 ```
-## [ImageNet-R](https://github.com/hendrycks/natural-adv-examples)
+## [ImageNet-R](https://github.com/hendrycks/imagenet-r)
 
 We followed this [repo](https://github.com/mlfoundations/model-soups/blob/main/datasets.md).
 
+```bash
+wget https://people.eecs.berkeley.edu/~hendrycks/imagenet-r.tar
+tar xvf imagenet-r.tar
+rm imagenet-r.tar
+```
+#### [ImageNet Sketch](https://github.com/HaohanWang/ImageNet-Sketch)
+We followed this [repo](https://github.com/mlfoundations/model-soups/blob/main/datasets.md).
+
+Download links:
+- from [Google Drive](https://drive.google.com/open?id=1Mj0i5HBthqH1p_yeXzsg22gZduvgoNeA)
+- from [Kaggle](https://www.kaggle.com/wanghaohan/imagenetsketch)
+
+#### [ImageNet V2](https://github.com/modestyachts/ImageNetV2)
+We followed this [repo](https://github.com/mlfoundations/model-soups/blob/main/datasets.md).
+
+```bash
+wget https://s3-us-west-2.amazonaws.com/imagenetv2public/imagenetv2-matched-frequency.tar.gz
+tar -xvf imagenetv2-matched-frequency.tar.gz
+rm imagenetv2-matched-frequency.tar.gz
+```
+
+#### [ObjectNet](https://objectnet.dev/)
+We followed this [repo](https://github.com/mlfoundations/model-soups/blob/main/datasets.md).
+
+```bash
+wget https://objectnet.dev/downloads/objectnet-1.0.zip
+unzip objectnet-1.0.zip
+rm objectnet-1.0.zip
+```
