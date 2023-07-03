@@ -64,3 +64,7 @@ wget https://objectnet.dev/downloads/objectnet-1.0.zip
 unzip objectnet-1.0.zip
 rm objectnet-1.0.zip
 ```
+
+### [iNaturalist](https://github.com/visipedia/inat_comp/tree/master)
+We used this [page](https://github.com/visipedia/inat_comp/tree/master/2017) to download the dataset.
+
