@@ -66,5 +66,22 @@ rm objectnet-1.0.zip
 ```
 
 ### [iNaturalist](https://github.com/visipedia/inat_comp/tree/master)
-We used this [page](https://github.com/visipedia/inat_comp/tree/master/2017) to download the dataset.
+We used this [page](https://github.com/visipedia/inat_comp/tree/master/2017) to download the dataset. We downloaded the 2017 version. Then you need to unzip it to a new foloder called 2017 for the PyTorch data loader. Then you need to also download the annotation file for it.
+
+For PyTorch build-in Dataloader it should be like this: 
+```bash
+2017/
+  ├── Aminat
+  │   ├── n01440764_10026.JPEG
+  │   ├── n01440764_10027.JPEG
+  │   ├── ......
+  ├── ......
+  imagenet/val/
+  ├── n01440764
+  │   ├── ILSVRC2012_val_00000293.JPEG
+  │   ├── ILSVRC2012_val_00002138.JPEG
+  │   ├── ......
+  ├── ......
+```
+Put the traion2017.json and val2017.json in the 2017 folder itself.
 
