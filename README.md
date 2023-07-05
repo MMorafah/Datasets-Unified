@@ -83,5 +83,6 @@ For PyTorch build-in Dataloader it should be like this:
   │   ├── ......
   ├── ......
 ```
-Put the traion2017.json and val2017.json in the 2017 folder itself.
+Put the traion2017.json and val2017.json in the 2017 folder itself. 
+For using the dataloader from other than PyTorch, you need to have the foloder train_val_images exist. Use the this [repo](https://github.com/macaodha/inat_comp_2017/blob/master/ignat_loader.py) or this [repo](https://github.com/macaodha/inat_comp_2018/blob/master/inat2018_loader.py) for manual dataloader.
 
